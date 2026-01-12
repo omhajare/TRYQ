@@ -103,7 +103,7 @@ const Navbar: React.FC<NavigationProps> = ({ currentPage, onNavigate }) => {
             onClick={(e) => { e.preventDefault(); onNavigate('home'); window.scrollTo(0,0); }} 
             className="block z-50"
         >
-            <img src="logo.png" alt="TRYQ Logo" className="h-14 object-contain" />
+            <img src="logo.webp" alt="TRYQ Logo" className="h-14 object-contain" />
         </a>
 
         {/* Desktop Navigation */}
@@ -919,7 +919,7 @@ const Footer: React.FC<NavigationProps> = ({ currentPage, onNavigate }) => (
         <div className="flex flex-col items-center relative">
              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-tryqGold/10 rounded-full blur-[80px] pointer-events-none"></div>
             {/* Removed filters to allow the colored logo to shine */}
-            <img src="logo.png" alt="TRYQ Logo" className="h-28 mb-8 object-contain relative z-10" />
+            <img src="logo.webp" alt="TRYQ Logo" className="h-28 mb-8 object-contain relative z-10" />
 
              {/* Added Footer Links Section */}
             <div className="flex flex-col items-center gap-6 mb-8 relative z-10 w-full max-w-4xl">
